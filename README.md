@@ -30,7 +30,7 @@ fd
 
 `winget install -e --id Microsoft.VisualStudio.2022.BuildTools`\
 
-1. Open, modify, select the newest:
+2. Open, modify, select the newest:
 
 `MSVC v[xxx] - VS [yyyy] C++ x64 build tools`
 
