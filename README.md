@@ -34,8 +34,7 @@ fd
 
 `MSVC v[xxx] - VS [yyyy] C++ x64 build tools`
 
-## LSPs
+## LSP
 
 Run `:Mason` \
 Install with `i`
-
