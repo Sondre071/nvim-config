@@ -28,9 +28,11 @@ fd
 
 1. Download the latest *Visual Studio Installer*
 
-`winget install -e --id Microsoft.VisualStudio.2022.BuildTools`\
+```powershell
+winget install -e --id Microsoft.VisualStudio.2022.BuildTools
+```
 
-2. Open, modify, select the newest:
+1. Open, modify, select the newest variant of the following:
 
 `MSVC v[xxx] - VS [yyyy] C++ x64 build tools`
 
