@@ -8,39 +8,34 @@ Set the env variable `XDG_CONFIG_HOME` to the user .config directory
 
 ### CLI tools
 
-
-**Neovim**
+Neovim
 
 `scoop install neovim`
-<br>
 
-**Fuzzy finder (fzf)**
+Fuzzy finder
 
 `scoop install fzf`
-<br>
 
-**Ripgrep**
+Ripgrep
 
-`scoop install ripgrep` 
-<br>
+`scoop install ripgrep`
 
-**fd**
+fd
 
 `scoop install fr`
-<br>
 
 ### C compiler
 
 1. Download the latest *Visual Studio Installer*
 
-`winget install -e --id Microsoft.VisualStudio.2022.BuildTools`
-<br>
+`winget install -e --id Microsoft.VisualStudio.2022.BuildTools`\
 
-2. Open, modify, select the newest:
+1. Open, modify, select the newest:
 
 `MSVC v[xxx] - VS [yyyy] C++ x64 build tools`
 
-## Resources
+## LSPs
 
-[LazyVim](https://github.com/LazyVim/LazyVim)
+Run `:Mason` \
+Install with `i`
 
