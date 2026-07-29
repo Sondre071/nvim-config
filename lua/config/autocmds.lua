@@ -11,13 +11,16 @@ local function set_user_var(name, value)
     io.write(string.format("\027]1337;SetUserVar=%s=%s\007", name, vim.base64.encode(value)))
 end
 
-vim.api.nvim_create_autocmd("BufWinEnter", {
+vim.api.nvim_create_autocmd("User", {
+    pattern = "LazyVimAutocmds",
+    once = true,
     callback = function()
         set_user_var("IS_NVIM", "true")
     end,
 })
 
-vim.api.nvim_create_autocmd("VimLeave", {
+vim.api.nvim_create_autocmd("VimLeavePre", {
+    once = true,
     callback = function()
         set_user_var("IS_NVIM", "false")
     end,
