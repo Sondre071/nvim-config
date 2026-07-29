@@ -1,6 +1,6 @@
 # Neovim config
 
-## Prerequisites
+## Dependencies
 
 ### Override default config path
 
