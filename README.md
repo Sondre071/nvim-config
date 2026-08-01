@@ -22,7 +22,7 @@ Ripgrep
 
 fd
 
-`scoop install fr`
+`scoop install fd`
 
 ### C compiler
 
