@@ -16,6 +16,8 @@ vim.api.nvim_create_autocmd("User", {
     once = true,
     callback = function()
         set_user_var("IS_NVIM", "true")
+        io.write("\027]0;neovim\007")
+        io.flush()
     end,
 })
 
